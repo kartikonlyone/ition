@@ -1,4 +1,4 @@
-[
+const movies = [
     {
         "movietitle": "Hanu Man",
         "imdbmovieid": "tt15433956",
@@ -2551,3 +2551,5 @@
         ]
     }
 ]
+
+export default movies;

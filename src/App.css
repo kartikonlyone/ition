@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/* MovieList.css */
+
+.movie-list {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movie img {
+  width: 100%;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.movie h2 {
+  margin-top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.movie p {
+  margin: 5px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.single_movie {
+height: 300px !important;
+object-fit: contain;
 }
+ 
